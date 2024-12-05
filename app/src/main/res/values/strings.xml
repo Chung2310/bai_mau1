@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app2</string>
+    <string name="name_sv">input name</string>
+    <string name="hint_name">money here</string>
+    <string name="hint_tien">$$$$</string>
+    <string name="hint_submit_button">submit</string>
+    <string name="hello">"HELLO "</string>
+    <string name="rich">WOW! YOU ARE VERY RICH</string>
+    <string name="not_rich">NOT RICH. TRY MORE</string>
+    <string name="clear">Clear</string>
+</resources>

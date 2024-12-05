@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">app2</string>
+    <string name="name_sv">Họ và tên:</string>
+    <string name="hint_name">Nhập tên vào đây</string>
+    <string name="hint_tien">Số tiền?</string>
+    <string name="hint_submit_button">Bói</string>
+    <string name="hello">"Xin chào "</string>
+    <string name="rich">bạn &lt;b&gt;giầu sụ&lt;/b&gt; thế</string>
+    <string name="not_rich">Hãy &lt;font color=blue&gt;cố gắng&lt;/font&gt; thêm nhé. click &lt;a href=http://hehe.com&gt;vào đây&lt;/a&gt; rồi 6h30 sẽ giầu</string>
+    <string name="clear">Xoá sạch</string>
+</resources>
