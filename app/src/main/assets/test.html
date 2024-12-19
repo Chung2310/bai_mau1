@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body,html{
+
+        }
+        img {
+        width:100%;
+        }
+    </style>
+    <script>
+        function NhanKQ(s){
+            document.getElementById('kq').innerHTML=s;
+        }
+        function boi_ngay(){
+            var ten=document.getElementById('ten').value;
+            var tien=document.getElementById('tien').value;
+            window.Android.xuly_boi(ten,tien);
+        }
+    </script>
+</head>
+<body>
+
+<p>test here</p>
+go to <a href="index.html">index</a>
+<br>
+mp3 offline OK:
+<audio controls>
+    <source src="mp3/nhac1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<br>
+mp4 offline OK?:
+<video width="320" height="240" controls>
+    <source src="mp4/lovely.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br>
+ONLINE OK:
+<iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/XM7V7PQPNx8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+<p>Bói toán </p>
+<table>
+    <tr>
+        <td>Nhập tên:</td>
+        <td> <input id="ten"></td>
+    </tr>
+    <tr>
+        <td>Nhập tiên:</td>
+        <td> <input id="tien"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Bói ngay nào" onclick="boi_ngay()"></td>
+    </tr>
+</table>
+<div id="kq">kq here</div>
+
+<img src="image/tea.jpg"/>
+</body>
+</html>
