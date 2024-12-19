@@ -1,5 +1,6 @@
 package vn.edu.tnut.app2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
@@ -66,5 +67,14 @@ public class MainActivity extends AppCompatActivity {
         tensv.setText("");
         sotien.setText("");
         tensv.requestFocus();
+    }
+
+    public void go_web(View view) {
+        // Tạo Intent để mở Activity 2
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        //truyen tham so
+
+        //gọi nó len
+        startActivity(intent); // Bắt đầu Activity 2
     }
 }

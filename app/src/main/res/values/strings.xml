@@ -8,4 +8,7 @@
     <string name="rich">WOW! YOU ARE VERY RICH</string>
     <string name="not_rich">NOT RICH. TRY MORE</string>
     <string name="clear">Clear</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
